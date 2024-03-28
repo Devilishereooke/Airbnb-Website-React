@@ -1,0 +1,55 @@
+.card{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.card-image{
+    width: 170px;
+    height: 230px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-stats{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    column-gap: 3px;
+}
+
+.stars{
+    width: 15px;
+    margin-right: 4px;
+}
+
+.stat,
+.country{
+    color: rgb(187, 187, 187);
+}
+
+.card-description{
+    font-size: 11px;
+    color: rgb(122, 122, 122);
+}
+
+.cost-details{
+    font-size: 11px;
+}
+
+.cost-details > span{
+    font-weight: bold;
+}
+
+.card-batch{
+    position: absolute;
+    background-color: rgb(216, 216, 216);
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 3px;
+    top: 8px;
+    left: 5px;
+}

@@ -1,0 +1,21 @@
+#hero-section{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#photo-grid{
+    max-width: 70%;
+    align-self: center;
+}
+
+.hero-content{
+    margin-top: 20px;
+    max-width: 350px;
+}
+
+#online-exp{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
